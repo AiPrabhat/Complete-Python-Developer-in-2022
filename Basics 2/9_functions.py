@@ -26,10 +26,36 @@
 # print(sum(42,5))
 
 
-def sum(num1, num2):
-    def another_fun(num1, num2):
-        return num1 + num2
-    return another_fun(num1, num2)
+# def sum(num1, num2):
+#     def another_fun(num1, num2):
+#         return num1 + num2
+#     return another_fun(num1, num2)
 
-total = sum(10,20)
-print(total)
+# total = sum(10,20)
+# print(total)
+
+# def test(a):
+#     '''
+#     Info: This function tests and prints param a
+#     '''
+#     print(a)
+
+# test('!!!!!')
+# help(test)
+# print(test.__doc__)
+
+
+
+# def is_even(num):
+
+#     if num % 2 == 0:
+#         return True
+#     # elif num % 2 != 0:
+#     return False
+
+# print(is_even(5))
+
+def is_even(num):
+    return num % 2 == 0
+
+print(is_even(4))
