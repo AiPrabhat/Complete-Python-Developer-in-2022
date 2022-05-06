@@ -13,8 +13,6 @@
 # print(D.mro())
 # D.__str__
 
-# print(' ')
-
 class X: pass
 class Y: pass
 class Z: pass
