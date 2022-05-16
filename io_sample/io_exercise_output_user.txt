@@ -1,0 +1,2 @@
+text = Prabhat Gupta
+Translation = プラバト・グプタ
